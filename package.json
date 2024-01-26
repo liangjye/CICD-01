@@ -1,3 +1,7 @@
 {
-  "test": "test"
+  "scripts": {
+    "dev": "echo \"testing dev\"",
+    "build": "echo \"testing build\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
