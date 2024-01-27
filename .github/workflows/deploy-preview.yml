@@ -17,4 +17,4 @@ jobs:
           repoToken: "${{secrets.GITHUB_TOKEN}}"
           firebaseServiceAccount: 'github-action-748691531@cicd-01-3b4c5.iam.gserviceaccount.com'
           expires: 30d
-          projectId: your-Firebase-project-ID
+          projectId: cicd-01-3b4c5
