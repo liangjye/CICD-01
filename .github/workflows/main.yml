@@ -33,6 +33,8 @@ jobs:
         with:
           name: build
           path: build
+      - name: List Files
+        uses: ls -lrt
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
         with:
